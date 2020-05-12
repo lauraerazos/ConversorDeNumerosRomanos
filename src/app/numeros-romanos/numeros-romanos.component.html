@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Conversor de números romanos</h2>
+  <form>
+    <div class="form-group">
+      <label>Número arábigo:</label>
+      <input type="arabigo" class="form-control" id="arabigo" [(ngModel)]="numero.arabigo" placeholder="Ingrese número arábigo" name="arabigo">
+    </div>
+    <button type="submit" class="btn btn-default" (click)="mostrarRomano()">Convertir</button>
+    <div class="form-group">
+      <label>Número romano:</label>
+      <input type="romano" class="form-control" id="romano" [(ngModel)]="numero.romano" placeholder="Ingrese número romano" name="romano">
+    </div>
+  </form>
+</div>
